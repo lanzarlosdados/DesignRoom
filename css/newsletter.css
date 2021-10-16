@@ -1,0 +1,42 @@
+.content_newsletter{
+    text-align: center;
+    margin: 40px 0;
+}
+.mail_newsletter{
+    margin: 20px 0;
+    padding: 25px;
+    width: 440px;
+    margin: auto;
+}
+.mail_newsletter input{
+    width: 60%;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 0.5rem;
+    border-style: none;
+    background: #e6e6e6;
+}
+.mail_newsletter input::placeholder{
+    color: black;
+    font-size: 17px;
+}
+.mail_newsletter button{
+    width: 30%;
+    font-size: 20px;
+    padding: 0.5rem;
+    height: 39px;
+    border-style: none;
+    background: var(--primary-color);
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.5s;
+    
+}
+.mail_newsletter button:hover{
+    background: #fff;
+    color: var(--primary-color); 
+    border: 1px solid #eead31;
+}
+.mail_newsletter input:focus{
+    outline: none;
+}

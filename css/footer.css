@@ -1,0 +1,89 @@
+footer {
+    background: #333;
+    margin-top: 20px;
+}
+
+.content_footer {
+    width: 90%;
+    margin: auto;
+    padding: 15px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.footer_items {
+    margin: 10px;
+}
+
+.footer_title {
+    color: var(--secundary-color);
+    font-size: 25px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    padding: 0.3rem 0;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.footer_text {
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    padding: 0.6rem 0;
+    color: var(--text-color);
+}
+
+.footer_name_text {
+    text-align: end;
+    color: var(--primary-color);
+}
+
+.enlace_footer {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+.footer_icon_social {
+    margin: 10px 0;
+    display: flex;
+}
+
+.footer_icon {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    padding: 3px 1px;
+    margin-right: 5px;
+}
+
+.icon-linkedin {
+    background: #0e76a8;
+}
+
+.icon-whatsapp {
+    background: #4ac959;
+}
+
+.enlace_icon {
+    display: block;
+    color: var(--text-color);
+    text-decoration: none;
+    font-size: 13px;
+    padding: 0.3rem 0;
+    transition: all 1s;
+}
+.enlace_ig:hover{
+    color: #E4405F;
+}
+.enlace_linkedin:hover{
+    color: #0e76a8;
+}
+.enlace_whatsapp:hover{
+    color:#4ac959;
+}
+.enlace_facebook:hover{
+    color: #3b5998;
+}
+.enlace_mail:hover{
+    color: #4285F4;
+}
+

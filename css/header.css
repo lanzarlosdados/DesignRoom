@@ -1,0 +1,134 @@
+.content_img_principal {
+    width: 100%;
+    height: 400px;
+    position: relative;
+}
+
+.content_img_principal:before {
+    position: absolute;
+    content: "";
+    z-index: 1;
+    background: rgba(0, 0, 0, 0.5);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+}
+
+.img_principal {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.nav_menu {
+    position: absolute;
+    text-align: center;
+    background: #292929;
+    width: 100%;
+    top: 67px;
+    left: -130%;
+    padding: 10px;
+    transition: all 0.5s;
+}
+.mostar{
+    left: 0;
+}
+
+.items_nav {
+    list-style: none;
+}
+
+.items_nav a {
+    display: block;
+    text-decoration: none;
+    color: var(--secundary-color);
+    font-size: 20px;
+    padding: 0.2em;
+    transition: all 0.3s;
+}
+
+.items_nav a:hover {
+    color: var(--primary-color);
+}
+
+.header_social {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 110px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.header_icon {
+    width: 35px;
+    height: 35px;
+    font-size: 20px;
+    padding: 0.3em 0;
+    border-radius: 50%;
+    color: #fff;
+    cursor: pointer;
+    transition: all 1s;
+}
+
+.header_icon:hover {
+    border: 1px solid #fff;
+    background: #292929;
+}
+
+.icon-facebook {
+    background: #3b5998;
+}
+
+.icon-instagram {
+    background: #E4405F;
+}
+
+.icon-mail {
+    background: #4285F4;
+}
+
+.header {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    top: 0;
+    left: 20px;
+    z-index: 9999;
+}
+
+.header_title {
+    display: flex;
+    justify-content: space-between;
+    width: 180px;
+}
+
+.header_title h1 {
+    font-size: 30px;
+    color: var(--primary-color);
+    padding: 0.5em 0;
+}
+
+.header_title h2 {
+    font-size: 30px;
+    color: var(--secundary-color);
+    padding: 0.5em 0;
+}
+
+.icon-menu {
+    font-size: 27px;
+    padding: 0.1em;
+    color: var(--primary-color);
+    border: 1px solid #fff;
+    border-radius: 5px;
+    height: 40px;
+    margin: 15px 0;
+    cursor: pointer;
+}
+
+.icon-menu:hover {
+    background: rgba(0, 0, 0, 0.3);
+}

@@ -1,0 +1,39 @@
+.item_design {
+    height: 350px;
+    position: relative;
+}
+
+.item_design:before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.design_img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.design_title {
+    position: absolute;
+    width: 100%;
+    top: 130px;
+    z-index: 3;
+}
+
+.design_title h2 {
+    font-size: 30px;
+    padding: 0.2em 0;
+    text-align: center;
+    width: 170px;
+    margin: auto;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 400;
+}

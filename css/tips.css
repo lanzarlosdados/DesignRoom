@@ -1,0 +1,42 @@
+.content_tips{
+    margin-top: 20px;
+    
+}
+.items_tips{
+    background: #f0f0f0;
+    text-align: center;
+}
+.item_tips{
+    padding: 15px;
+    display: flex;
+    width: 90%;
+}
+.icon_tips{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    font-size: 45px;
+    padding: 0.3em;
+    border: 1px solid #bcbcbc;
+    color: var(--primary-color);
+    transition: all 0.2s;
+}
+.icon_tips:hover{
+    color: black;
+    border: none;
+    border-style: double;
+    border-color:#bcbcbc;
+    
+}
+.info_title{
+    color: var(--primary-color);
+    font-size: 23px;
+    font-weight: 500;
+    padding: 0.3em;
+}
+.info_text{
+    color: var(--text-color);
+}
